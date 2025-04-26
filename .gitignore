@@ -1,0 +1,22 @@
+# Root .gitignore
+
+# Node modules for both client and server
+client/node_modules/
+server/node_modules/
+
+# Environment files
+client/.env
+server/.env
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and cache folders (optional)
+client/dist/
+client/.cache/
+server/dist/
+server/.cache/
